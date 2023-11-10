@@ -10,6 +10,10 @@ button {
   color: black;
 }
 
+.flex {
+  display: flex;
+}
+
 body {
   font-family: 'Sono', sans-serif;
 
@@ -19,6 +23,15 @@ body {
 
 .header {
   margin-bottom: 40px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .fact-form {
@@ -31,19 +44,27 @@ body {
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
+  line-height: 1;
 
   font-family: 'Coiny', cursive;
+
+  margin-top: 6px;
+  /* margin: 6px 0 0 20px; */
 }
 
 .fact {
   font-size: 20px;
   line-height: 1.4;
+  letter-spacing: -0.6px;
 
   margin-bottom: 24px;
   padding: 16px 24px;
 
   background-color: #44403c;
+
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .tag {
@@ -53,6 +74,15 @@ h1 {
   font-family: 'Coiny', cursive;
 }
 
+.vote-buttons {
+  margin-left: auto;
+}
+
 ul {
   list-style: none;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
 }
