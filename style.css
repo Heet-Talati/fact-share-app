@@ -21,6 +21,10 @@ body {
   background-color: #292524;
 }
 
+.hidden {
+  display: none !important;
+}
+
 /* MAIN LAYOUT */
 .container {
   max-width: 1500px;
